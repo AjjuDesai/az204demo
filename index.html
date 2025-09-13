@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Sample Form</title>
+</head>
+<body style="background-color: green; color: white;">
+
+  <!-- Marquee with red, bold, large text and white background -->
+  <marquee behavior="scroll" direction="left" 
+           style="background-color: white; color: red; font-size: 28px; font-weight: bold; padding: 10px;">
+    www.simplilearn.com
+  </marquee>
+
+  <!-- Form Section -->
+  <h2>Customer Information</h2>
+  <form action="https://www.simplilearn.com/" method="get">
+    
+    <label for="name">Name:Gulappa Desai</label><br>
+    <input type="text" id="name" name="name" required><br><br>
+
+    <label for="email">Email:g.desai@simplilearn.com</label><br>
+    <input type="email" id="email" name="email" required><br><br>
+
+    <label for="phone">Phone:+911234567890</label><br>
+    <input type="tel" id="phone" name="phone" required><br><br>
+
+    <label for="address">Address:Bengaluru</label><br>
+    <textarea id="address" name="address" rows="4" cols="30" required></textarea><br><br>
+
+    <label>Gender:</label><br>
+    <input type="radio" id="male" name="gender" value="male">
+    <label for="male">Male</label><br>
+    <input type="radio" id="female" name="gender" value="female">
+    <label for="female">Female</label><br><br>
+
+    <label for="dob">Date of Birth:</label><br>
+    <input type="date" id="dob" name="dob"><br><br>
+
+    <input type="submit" value="Submit">
+
+  </form>
+
+</body>
+</html>
